@@ -8,12 +8,13 @@ export default function App() {
 
   return (
     <div className="grid h-screen place-content-center">
-      <div className=" flex gap-10 border-sm shadow px-4 py-20 items-center">
-        <button className="border py-1 px-2 rounded" onClick={decrement}>
+      <h1>Minhdeo</h1>
+      <div className="flex items-center gap-10 px-4 py-20 shadow  border-sm">
+        <button className="px-2 py-1 border rounded" onClick={decrement}>
           Minus
         </button>
         <span>{count}</span>
-        <button className="border py-1 px-2 rounded" onClick={increment}>
+        <button className="px-2 py-1 border rounded" onClick={increment}>
           Plus
         </button>
       </div>
